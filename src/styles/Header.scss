@@ -1,0 +1,15 @@
+@import './colors';
+@import './mixins';
+
+
+.header {
+  position: sticky;
+  top: 0;
+
+  nav {
+    @include flex-center
+    justify-content: space-between;
+    height: 4rem;
+    background-color: $main-color;
+  }
+}
